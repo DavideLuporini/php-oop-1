@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+}
+
+p {
+    color: gray;
+    text-align: center;
+}
+
+.card-container {
+    border: black 1px solid;
+    height: 570px;
+    margin-left: 20px;
+    background-color: rgb(93, 63, 63);
+}
+
+.bg-container {
+    height: 75%;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
