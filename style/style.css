@@ -2,20 +2,32 @@ body {
     height: 100vh;
 }
 
-p {
-    color: gray;
+p,
+span {
+    color: white;
     text-align: center;
 }
 
 .card-container {
     border: black 1px solid;
-    height: 570px;
     margin-left: 20px;
     background-color: rgb(93, 63, 63);
+    padding: 30px;
+    max-height: 600px;
+}
+
+.bar {
+    width: 100%;
+    background-color: black;
+}
+
+.rating-bar {
+    background-color: yellow;
+    border: 2px black solid;
 }
 
 .bg-container {
-    height: 75%;
+    height: 400px;
     margin-top: 10px;
     background-size: cover;
     background-position: bottom;
